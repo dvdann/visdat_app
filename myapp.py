@@ -13,14 +13,23 @@
 
 # In[1]:
 
+# Data handling
 import pandas as pd
-from bokeh.io import curdoc
-from bokeh.plotting import figure
-from bokeh.models import HoverTool, ColumnDataSource
-from bokeh.models import CategoricalColorMapper
-from bokeh.palettes import Spectral6
-from bokeh.layouts import widgetbox, row, gridplot
-from bokeh.models import Slider, Select
+import matplotlib.pyplot as plt
+import numpy as np
+import requests
+import io
+
+
+# In[2]:
+
+
+# Bokeh libraries
+from bokeh.io import output_file, output_notebook
+from bokeh.plotting import figure, show
+from bokeh.models import ColumnDataSource
+from bokeh.layouts import row, column, gridplot
+from bokeh.models.widgets import Tabs, Panel
 
 
 # In[3]:
