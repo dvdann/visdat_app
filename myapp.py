@@ -22,7 +22,7 @@ from bokeh.models import HoverTool, ColumnDataSource
 # In[27]:
 
 
-df = pd.read_csv("stock_market.csv")
+df = pd.read_csv(./gapminder_tidy.csv")
 print('Data downloaded and read into a dataframe!')
 df.head()
 
