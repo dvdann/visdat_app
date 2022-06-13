@@ -4,7 +4,6 @@
 # 
 # #### Tugas_Besar_Visdat_IF42GAB01.ipynb
 # ### Visualisasi Data Interaktif Fluktuasi Harga Saham
-# ## Dosen Pengampu : ERWIN BUDI SETIAWAN, S.Si., M.T.
 # ### Final Project
 # ### Kelas : IF-43-GAB01
 # #### Daniel Septyadi (1301180009)
