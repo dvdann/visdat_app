@@ -4,19 +4,14 @@
 # In[26]:
 
 
-# Data handling
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Bokeh libraries
-from bokeh.io import output_file, output_notebook
-from bokeh.plotting import figure, show
-from bokeh.models import ColumnDataSource
-from bokeh.layouts import row, column, gridplot
-from bokeh.models.widgets import Tabs, Panel
+from bokeh.io import curdoc
 from bokeh.plotting import figure
 from bokeh.models import HoverTool, ColumnDataSource
+from bokeh.models import CategoricalColorMapper
+from bokeh.palettes import Spectral6
+from bokeh.layouts import widgetbox, row, gridplot
+from bokeh.models import Slider, Select
 
 
 # In[27]:
