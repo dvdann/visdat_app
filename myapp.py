@@ -14,8 +14,8 @@ import numpy as np
 import requests
 import io
 
-import pip
-pip.main(["install","matplotlib"])
+#import pip
+#pip.main(["install","matplotlib"])
 
 # Bokeh libraries
 from bokeh.io import output_file, output_notebook
