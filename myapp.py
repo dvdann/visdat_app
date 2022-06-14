@@ -21,6 +21,8 @@ from bokeh.models import ColumnDataSource
 from bokeh.layouts import row, column, gridplot
 from bokeh.models.widgets import Tabs, Panel
 
+pip install matplotlib
+
 url_stock = "https://cdn.discordapp.com/attachments/810415013076402217/855494072591581184/stock_market.csv"
 stock = requests.get(url_stock).content
 stock = pd.read_csv(io.StringIO(stock.decode('utf-8')))
