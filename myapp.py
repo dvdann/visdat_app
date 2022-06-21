@@ -248,5 +248,6 @@ fig_vol.add_tools(HoverTool(tooltips=tooltips, formatters={'@Date': 'datetime'})
 fig_dpc.add_tools(HoverTool(tooltips=tooltips, formatters={'@Date': 'datetime'}))
 
 # tampilkan show
-show(tabs)
+# show(tabs)
+curdoc().add_root(column(tabs))
 
